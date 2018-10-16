@@ -196,6 +196,7 @@
 	status = "okay";
 	uart-has-rtscts;
 	linux,rs485-enabled-at-boot-time;
+	rts-gpios = <&gpio1 23 0>;
 };
 
 &uart3 {
@@ -204,6 +205,7 @@
 	status = "okay";
 	uart-has-rtscts;
 	linux,rs485-enabled-at-boot-time;
+	rts-gpios = <&gpio1 27 0>;
 };
 
 &uart4 {
